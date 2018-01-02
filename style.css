@@ -1,0 +1,52 @@
+
+img { width: 100% }
+
+.button2 {
+	border: 2px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.jumbotron {
+	background-image: url("https://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg");
+}
+
+.display-4 {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 3px #333;
+}
+
+.lead {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 3px #333;
+}
+
+.secondr {
+	padding: 55px 15px 55px 15px;
+}
+
+.newa{
+	background-color: #eee;
+}
+
+.first {
+	padding-bottom: 55px;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+.slider {
+	padding-top: 25px;
+}
+
+.rowfirst, .rowsecond {
+	padding-bottom: 15px;
+}
+
+.fas {
+	padding-right: 5px;
+}
