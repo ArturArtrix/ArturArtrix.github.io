@@ -1,0 +1,88 @@
+body {
+    font-family: 'News Cycle', sans-serif;
+    background-color: #f5f5f5;
+}
+
+article {
+    width: 832px;
+    margin-bottom: 30px;
+    padding: 0 20px 20px 20px;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    border-top: 5px solid #0974b3;
+    overflow: auto;
+}
+
+.years {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #0974b3;
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 150px;
+    padding: 0 20px 20px 0;
+    float: left;
+}
+
+.half-width {
+    width: 380px;
+    float: left;
+   
+}
+
+.half-width:nth-of-type(1n) {
+    margin-right: 30px;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: red;
+    }
+
+    article {
+        border: 5px solid yellow;
+    }
+
+    img {
+        max-width: 100px;
+    }
+
+}
+
+@media print {
+  body {
+    /* IE4-8 and 9 (deprecated). */
+    filter: Gray();
+    /* SVG version for IE10, Chrome 17, FF3.5, 
+       Safari 5.2 and Opera 11.6 */
+    filter: url('#grayscale'); 
+    /* CSS3 filter, at the moment Webkit only. Prefix it for
+       future implementations */
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); /* future-proof */
+  }
+  .half-width {
+    display: none;
+  }
+}
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+
+    body {
+        background-color: black;
+    }
+
+    article {
+        border: 5px solid green;
+    }
+
+    img {
+        max-width: 50px;
+    }
+
+}
